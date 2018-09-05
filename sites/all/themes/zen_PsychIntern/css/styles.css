@@ -299,7 +299,7 @@ hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
-  border: 1px solid #666;
+  border: .5px solid #ccc;
   padding-bottom: -1px;
   margin: 2em 0;
 }
