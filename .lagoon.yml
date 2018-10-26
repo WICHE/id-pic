@@ -22,11 +22,11 @@ cronjobs:
 
 environments:
    master:
-    routes:
-      - varnish:
-        - "www.idaho-pic.org":
+     routes:
+       - varnish:
+         - "www.idaho-pic.org":
             tls-acme: 'true'
             insecure: Redirect
-        - "idaho-pic.org":
+         - "idaho-pic.org":
             tls-acme: 'true'
             insecure: Redirect
