@@ -1,16 +1,6 @@
 # Ignore configuration files that may contain sensitive information.
-#sites/*/settings*.php
-*.sql
-*.zip
-*.psd
-*.html
-
-/sites/all/themes/zen_wiche/.sass-cache
-.sass-cache
-
+sites/*/settings*.php
 
 # Ignore paths that contain user-generated content.
 sites/*/files
 sites/*/private
-files/
-sites/all/themes/zen_PsychIntern/fonts/
