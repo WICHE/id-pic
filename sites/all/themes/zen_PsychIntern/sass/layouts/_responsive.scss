@@ -399,13 +399,17 @@ $zen-auto-include-item-base: false;
 /**
  * Use 5 grid columns for larger screens.
  */
+
+
+
+
 @media all and (min-width: 960px) {
 
   $zen-column-count: 5;
 
 #page{
 	#header{
-		background:url(../images/CO-PIC-banner.png) 0 0 no-repeat;
+		background:url(../images/idaho-PIC-banner.jpg) 0 0 no-repeat;
 		height:192px;
 		position:relative;
 		
@@ -417,7 +421,8 @@ $zen-auto-include-item-base: false;
 			  width:550px;
 			  h1.site-name, a.header__site-link{
 				  font-family: 'Open Sans', sans-serif;
-				  color:rgba(35,31,32,1.00);
+				  color:rgba(255,255,255,1.00);
+				  text-shadow:2px 2px #000;
 				  font-weight:700;
 				  letter-spacing:1px;
 				  text-transform:uppercase;
@@ -440,10 +445,10 @@ $zen-auto-include-item-base: false;
 	}
 	
 	#navigation{
-		background:#f0f0f0;
+		background:#dabf9e;
 		padding:4px;
 		overflow:visible;
-		margin:8px 0;
+		margin:0 0;
 		border-bottom:2px solid #ccc;
 		
 			.search-box{
