@@ -39,7 +39,7 @@ ul.nice-menu a {
   	letter-spacing:1px;
 }
 ul.nice-menu a:hover {
-	color:#ff3434
+	color:#fff;
 }
 ul.nice-menu ul {
   top: 1.8em;
@@ -137,7 +137,7 @@ ul.nice-menu-down li li {
 
 ul.nice-menu-down ul {
   left: 0; /* LTR */
-   background:#f0f0f0;
+   background:#dabf9e;
   border:1px solid #666;
 }
 
