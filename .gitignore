@@ -5,4 +5,4 @@ sites/*/settings*.php
 sites/*/files
 sites/*/private
 sites/*/.sass-cache
-sites/all/themes/zen_PsychIntern/.sss-cache
+sites/all/themes/zen_PsychIntern/.sass-cache
