@@ -234,3 +234,8 @@ ul.nice-menu li {
 #header-region ul.nice-menu-down li li.menuparent:hover {
   background: #ccc url("../images/arrow-right.png") right center no-repeat; /* LTR */
 }
+
+#admin-menu .dropdown li ul {
+    margin-left:3%!important;
+}
+
